@@ -1,0 +1,7 @@
+ps aux | where pid = 222
+ps | where pid = 222
+ps 
+ps | where pid=1
+ps | where pid = 1
+ps | where "pid" = 1
+neofetch
