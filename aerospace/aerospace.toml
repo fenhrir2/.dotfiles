@@ -25,7 +25,7 @@ exec-on-workspace-change = ['/bin/bash', '-c',
 
 [workspace-to-monitor-force-assignment]
 9 = ['ARZOPA(2)', 3]
-10 = 'ARZOPA(1)'
+10 = ['ARZOPA(1)', 1]
 
 [gaps]
 inner.horizontal = 10
@@ -90,7 +90,7 @@ outer.bottom = 10
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
     alt-0 = 'workspace 10'
-	alt-u = 'workspace 11'
+    #alt-u = 'workspace 11'
 
     alt-shift-1 = 'move-node-to-workspace 1'
     alt-shift-2 = 'move-node-to-workspace 2'
@@ -102,7 +102,7 @@ outer.bottom = 10
     alt-shift-8 = 'move-node-to-workspace 8'
     alt-shift-9 = 'move-node-to-workspace 9'
     alt-shift-0 = 'move-node-to-workspace 10'
-	alt-shift-u = 'move-node-to-workspace 11'
+    #alt-shift-u = 'move-node-to-workspace 11'
 
     alt-shift-c = 'reload-config'
 
